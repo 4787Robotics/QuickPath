@@ -17,6 +17,9 @@ The app will deploy the paths to /home/lvuser/deploy/paths/QuickPath, and within
 For example, if you wanted to use the wpilib json format, you could just do (on java):
 
 [Constants](https://drive.google.com/file/d/1uMoaZjhCH_T2WdlLcOD5mBGUSrxmARfR/view?usp=sharing)
+
 [Robot.java](https://drive.google.com/file/d/1TK1lxKE7O-HJZaAQnnbf73aAUDRuKReL/view?usp=sharing)
+
+**Make sure you name your paths in the mobile application the same name as the file that you load in the deploy directory, i.e. if you name your path "Path1" in the application, it must be loaded in the roboRIO program as "paths/QuickPath/generatedJSON/Path1.wpilib.json"**
 
 
