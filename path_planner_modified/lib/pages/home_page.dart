@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         _robotWidth = _prefs.getDouble('robotWidth') ?? 0.75;
         _robotLength = _prefs.getDouble('robotLength') ?? 1.0;
         _holonomicMode = _prefs.getBool('holonomicMode') ?? false;
-        _generateJSON = _prefs.getBool('generateJSON') ?? true;
+        _generateJSON = _prefs.getBool('generateJSON') ?? false;
         _generateCSV = _prefs.getBool('generateCSV') ?? false;
       });
     });

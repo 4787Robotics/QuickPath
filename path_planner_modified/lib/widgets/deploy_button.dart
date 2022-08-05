@@ -125,9 +125,9 @@ class DeployFAB extends StatelessWidget {
                         await sftp.mkdir(
                             '/home/lvuser/deploy/paths/QuickPath/generatedJSON');
                       } catch (e) {}
-                      var paths = await Directory(
-                              path_name + slash + 'generatedJSON' + slash)
-                          .listSync();
+                      var paths =
+                          await Directory(path_name + 'generatedJSON' + slash)
+                              .listSync();
                       for (FileSystemEntity path in paths) {
                         if (path is File) {
                           var data =
@@ -150,9 +150,9 @@ class DeployFAB extends StatelessWidget {
                             '/home/lvuser/deploy/paths/QuickPath/generatedCSV');
                       } catch (e) {}
 
-                      var paths = await Directory(
-                              path_name + slash + 'generatedCSV' + slash)
-                          .listSync();
+                      var paths =
+                          await Directory(path_name + 'generatedCSV' + slash)
+                              .listSync();
                       for (FileSystemEntity path in paths) {
                         if (path is File) {
                           var data =

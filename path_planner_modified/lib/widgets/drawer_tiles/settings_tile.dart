@@ -55,36 +55,7 @@ class _SettingsTileState extends State<SettingsTile>
 
   @override
   Widget build(BuildContext context) {
-    //final GlobalKey expansionTileKey = GlobalKey();
-
-    return /*ExpansionTile(
-      //key: expansionTileKey,
-      leading: Icon(
-        Icons.settings,
-        color: Colors.white,
-      ),
-      onExpansionChanged: (expanded) {
-        setState(() {
-          if (expanded) {
-            // _scrollToSelectedContent(expansionTileKey: expansionTileKey);
-            _controller.forward();
-          } else {
-            _controller.reverse();
-          }
-        });
-      },
-      trailing: RotationTransition(
-        turns: _iconTurns,
-        child: Icon(
-          Icons.expand_less,
-          color: Colors.white,
-        ),
-      ),
-      title: Text(
-        'Settings',
-        style: TextStyle(color: Colors.white),
-      ), */
-        Expanded(
+    return Expanded(
       child: ListView(
         children: [
           buildTextField(context, 'Team Number', (value) {
