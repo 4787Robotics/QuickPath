@@ -5,10 +5,12 @@ QuickPath is an attempt to convert the program, [PathPlanner](https://github.com
 If you find bugs, feel free to report them. This app can theoretically work on macos, linux, and ios, however I do not have the devices needed to compile to these platforms.
 Windows and android should work out of the box.
 
+YouTube demo here: https://youtu.be/1BEDiob-kok
+
 ## How are paths transferred to the roboRIO?
 
-This program transfers files to the roboRIO using SSH and SFTP, after discovering the roboRIO on the wifi network using multicast DNS. 
-This should work out of the box with your roboRIO.
+Instead of launching a gradle build and redeploying your robot code, this program transfers files to the roboRIO using SSH and SFTP, after discovering the roboRIO on the wifi network, saving tons of time and preventing the need to have to constantly redeploy code every time you want to change a path.
+This should work out of the box with your roboRIO, no extra modifications needed.
 
 ## What needs to change in my robot code?
 
