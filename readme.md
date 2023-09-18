@@ -1,6 +1,6 @@
 # QuickPath
 
-QuickPath is an attempt to convert the program, [PathPlanner](https://github.com/mjansen4857/pathplanner/releases/latest, "PathPlanner"), to mobile devices (specifically android). Specifically, this is a modification of PathPlanner version 2022.1.1.
+QuickPath is an attempt to convert the program, [PathPlanner](https://github.com/mjansen4857/pathplanner/releases/latest "PathPlanner"), to mobile devices (specifically android). Specifically, this is a modification of PathPlanner version 2022.1.1.
 
 If you find bugs, feel free to report them. This app can theoretically work on macos, linux, and ios, however I do not have the devices needed to compile to these platforms.
 Windows and android should work out of the box.
